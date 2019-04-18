@@ -1,0 +1,17 @@
+<html>
+<head>
+  <title>Current Time</title>
+</head>
+<body>
+<h1>Current Time is Here...!!!{{now}}</h1>
+<p>Message Through Message's Framework</p>
+{% if messages %}
+<ul class="messages">
+    {% for message in messages %}
+    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+</body>
+</body>
+</html>
