@@ -45,3 +45,4 @@ class Users_proxy_model(User):
 
     def get_user_name(self):
         return Users_proxy_model.objects.filter(username='hassan')
+        
