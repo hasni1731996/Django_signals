@@ -14,7 +14,7 @@ django-jsonfield==1.1.0
 django-notify-x==0.1.9
 django-redis==4.10.0
 django-tastypie==0.14.2
-djangorestframework==3.9.2
+djangorestframework==3.11.2
 djangorestframework-jwt==1.11.0
 drf-writable-nested==0.5.1
 google-api-python-client==1.7.8
